@@ -1,4 +1,4 @@
-FROM linuxserver/plex
+FROM plexinc/pms-docker
 
 RUN \
   # Install dependencies

@@ -3,11 +3,13 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/horjulf/plex_autoscan.svg)](https://hub.docker.com/r/horjulf/plex_autoscan/)
 [![](https://images.microbadger.com/badges/image/horjulf/plex_autoscan.svg)](https://microbadger.com/images/horjulf/plex_autoscan)
 
-This image provides [plex_autoscan](https://github.com/l3uddz/plex_autoscan) on top of the plex server image from linuxserver.io([linuxserver/plex](https://hub.docker.com/r/linuxserver/plex/)).
+This image provides [plex_autoscan](https://github.com/l3uddz/plex_autoscan) on top of the plex server image from Plex, Inc ([plexinc/pms-docker](https://hub.docker.com/r/plexinc/pms-docker/)).
+
+Docker image based on [horjulf's](https://github.com/horjulf/docker-plex_autoscan).
 
 ## Usage
 
-- Follow the instructions on [linuxserver/plex](https://hub.docker.com/r/linuxserver/plex/) for base image and plex server settings.
+- Follow the instructions on [plexinc/pms-docker](https://github.com/plexinc/pms-docker) for base image and plex server settings.
 
 - plex_autoscan default config file will be created on first run, default locations are:
   - Folder will be created at: `/config/plex_autoscan`
